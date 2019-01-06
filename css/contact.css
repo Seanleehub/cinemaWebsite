@@ -1,0 +1,30 @@
+@charset "utf-8";
+div#leftContent  h1 {
+	font-size: 24px;
+	color: #698380;
+	background: #0F1313;
+	border: 2px solid #889F9C;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+}
+div#innerLeft {
+	padding: 10px;
+	float: left;
+	width: 63%;
+}
+div#innerRight {
+	padding: 10px;
+	float: right;
+	width: 31%;
+	background: #9FB3B0;
+	border: 1px solid #CFD8D7;
+}
+
+div#leftContent {
+	margin-right: 240px;
+}
+table.contactFormTable  textarea, table.contactFormTable  input {
+	width: 300px;
+}

@@ -1,0 +1,325 @@
+@charset "utf-8";
+/*
+    * Welcome to AME's Main StyleSheet ... and one heck 
+	* of a stylesheet too xD. This stylesheet is organised
+	* from top to bottom and each visual attribute can be
+	* found under the style attributes of its div location.
+	* Let's begin!
+*/
+
+
+	/*Lets set a few defaults and mains for the entirety 
+	of the website ^_^*/
+		body {
+			font: 62.5% Verdana, Arial, Geneva, sans-serif;
+			background: #000000;
+			margin: 0px;
+			padding: 0px;
+		}
+		img {
+			margin: 0px;
+			padding: 0px;
+			border:none;
+		}
+
+
+	/*The Entire Page Container -- This contains
+	every thing in the site, every div and every...
+	thing. So if you put display:none, everything
+	will DISAPPEAR!!! Don't try this at home xD*/
+		div#container {
+			font-size: 1.2em;
+			min-width: 990px;
+		}
+div#container a {
+	color: #0F1313;
+	text-decoration: none;
+}
+div#container a:hover {
+	color: #BBC8C7;
+}
+p.readMore  {
+	text-align: right;
+	font-size: 10px;
+}
+br.clear {
+	clear: both;
+}
+
+div.divbox {
+	border: 2px solid #1B2120;
+	background: #495C5A;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+select, input, textarea {
+	background: #CFD8D7;
+	border: 1px solid #1B2120;
+}
+
+
+
+
+	
+	/***********************************************/
+    /* The Header & its contents (The NavBar) ******/
+	/***********************************************/
+
+		/*Header Div*/
+			div#header {
+				background: url(../images/navbg.jpg) repeat-x;
+				height: 105px;
+			}
+
+		/*The AME Logo*/
+			img#logo {
+				position: absolute;
+			}
+
+			/***********************************************/
+			/* NavBar Stuff ********************************/
+			/***********************************************/
+			
+			/* Navigation Container */
+				div#navbarcont {
+					padding-top: 44px;
+				}
+
+			/* Navigation Div */
+				div#navbar {
+					background: url(../images/navbarbg.png);
+					padding-top: 3px;
+					padding-bottom: 3px;
+					border-top: 1px solid #FFFFFF;
+					border-bottom: 1px solid #FFFFFF;
+				}
+
+			/* Navigation Block...its an unordered list */
+				ul#nav {
+					display: inline;
+					color: #EEEEEE;
+					font-variant: small-caps;
+					font-size: 1.4em;
+					font-weight: bold;
+					margin-left: 230px;
+				}
+				
+			/* Actual Links...list items */
+				ul#nav li {
+	display: inline;
+	padding-right: 40px;
+				}
+			
+			/* Actual Links ... ermmm anchors/text */
+				ul#nav a {
+					color: #FFFFFF;
+					text-decoration: none;
+				}
+			
+			/*The link effect when you hover*/
+				ul#nav a:hover {
+					color: #6C8582;
+				}
+
+
+
+		/***********************************************/
+		/* Content *************************************/
+		/***********************************************/
+			/*Content Container... there's a lot of
+			containers here...*/
+				div#content {
+					background: #698380 url(../images/mainbg.jpg) no-repeat right bottom;
+					min-height: 380px;
+					padding: 10px;
+				}
+				
+			/*Left Column & stuff in it*/
+				div#left  {
+					float: left;
+					width: 220px;
+					padding-right: 10px;
+					text-align: justify;
+				}
+				/*The jump menu for session times BY MOVIE then BY DAY*/				
+				select#movieSessionQS, select#daySessionQS {
+					width: 200px;
+				}
+div#left /*All the h2's in the right say.. err*/
+				 h2 {
+					font-size: 15px;
+					padding-left: 5px;
+					border-left: 5px solid #0F1313;
+				}
+div#left /*For the dates on the update section*/
+				 h4.reviewTitle {
+	font-style: italic;
+	font-weight: bold;
+	color: #0F1313;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	border-top: 1px dotted #0F1313;
+	font-size: 12px;
+				}
+
+				
+			/*Middle Column & stuff in it*/
+				div#middle {
+					margin-right: 240px;
+					margin-left: 240px;
+				}
+				/*For the h1's in the middle*/
+					div#middle h1 {
+						text-transform: uppercase;
+						background: #000;
+						text-align: center;
+						padding: 3px;
+						border: 3px solid #eee;
+						color: #eee;
+						letter-spacing: 0.8em;
+						font: bold 17px Verdana, Arial, Geneva, sans-serif;
+					}
+				
+				/*Now Showing Section*/
+					/*The Table*/
+					table#nowShowing {
+
+					}
+					/*The table cell that contains those numbers that you
+					hover and click on*/
+					td#marqueeSelect {
+						vertical-align: middle;
+						padding-right: 5px;
+						background: #000000;
+						border: 3px solid #DDDDDD;
+					}
+					/*Those numbers that you hover and click on (unhovered)*/
+					table#nowShowing h4 {
+						margin-top: 12px;
+						margin-bottom: 12px;
+						text-align: left;
+						font-size: 10px;
+						color: #DDDDDD;
+					}
+					/*Basically just so "more" is legible xD*/
+					table#nowShowing h4 a {
+						color: #DDDDDD;
+						padding-left: 3px;
+						border-left: 5px solid #DDDDDD;
+					}
+					table#nowShowing h4 a:hover {
+						color: #698380;
+						background: #000000;
+						border-left: 5px solid #000000;
+					}					
+					/*This is for when the slot is ON*/
+					table#nowShowing h4.marqueeSlotOn {
+						color: #000000;
+						padding-left: 3px;
+						border-left: 5px solid #000000;
+						background: #FFFFFF;
+					}
+					/*This is for when the slot is NOT on*/
+					table#nowShowing h4.marqueeSlot {
+						color: #DDDDDD;
+						padding-left: 3px;
+						border-left: 5px solid #DDDDDD;
+					}
+				
+				/*Coming Soon and Special Offers Columns*/
+					/*The container for both*/
+						div#middleBottomContainer {
+							margin-top: 10px;
+						}
+						div#middleBottomContainer h2 {
+							font-size: 15px;
+							text-align: center;
+							border-bottom: 1px solid #0E1212;
+							font-variant: small-caps;
+							letter-spacing: 0.3em;
+							border-top: 2px solid #0E1212;
+							background: #6F8A87;
+						}
+
+					/*Coming Soon div*/
+						div#midLeft {
+							float: left;
+							width: 47%;
+						}
+						p.newMovie {
+							text-align: center;
+						}
+						span.newMovieTitle {
+							font-weight: bold;
+						}
+						span.newMovieReleaseDate {
+							font-size: 10px;
+							font-style: italic;
+						}
+						p.specialOffer {
+							text-align: center;
+						}
+
+
+
+
+					/*Special Offers div*/
+						div#midRight {
+							float: right;
+							width: 47%;
+						}
+						
+			/*Right Column & stuff in it*/
+				/*The right column*/
+				div#right {
+					float: right;
+					width: 220px;
+					padding-left: 10px;
+				}
+div#right /*All the h2's in the left say.. umm*/
+				 h2 {
+					font-size: 15px;
+					padding-left: 5px;
+					border-left: 5px solid #0F1313;
+				}
+div#right /*For the dates on the update section*/
+				 h4.updateDate {
+	font-style: italic;
+	font-weight: bold;
+	color: #0F1313;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	border-top: 1px dotted #0F1313;
+	font-size: 12px;
+				}
+
+
+			
+		/***********************************************/
+		/* Footer **************************************/
+		/***********************************************/
+			
+			/*Footer div*/
+				div#footer {
+					background: #000000 url(../images/footer.jpg) repeat-x;
+					height: 20px;
+					text-align: right;
+					color: #555555;
+					font-size: 0.9em;
+					padding: 30px 10px;
+				}
+			/*For the links in the footer*/
+				div#footer a {
+					color: #555555;
+					text-decoration: none;
+				}
+			/*and for when you hover over them*/
+				div#footer a:hover {
+					color: #AAAAAA;
+				}

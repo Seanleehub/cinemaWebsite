@@ -1,0 +1,98 @@
+@charset "utf-8";
+.default {
+	background: none;
+	border: none;
+}
+form#selectTicket   table input,form#selectTicket table select  {
+	width: 300px;
+}
+
+form#selectTicket  table tr td div#ccNo input {
+	width: 30px;
+}
+form#selectTicket  table  tr  td  div#ccNoExp  select {
+	width: 50px;
+}
+form#selectTicket table table input {
+	width: 80px;
+}
+form#selectTicket table table {
+	text-align: center;
+}
+table#customerDetails th {
+	background: #1B2120;
+	color: #DADEDE;
+	text-align: left;
+	border-left: 10px solid #DADEDE;
+}
+
+form#selectTicket  div#ccNoExp  table {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 0.8em;
+	margin: 0px;
+	padding: 0px;
+}
+form#selectTicket table tr td {
+	text-align: center;
+}
+form#selectTicket table {
+	border: 2px solid #1B2120;
+}
+
+form#selectTicket table tr td input {
+	width: 100px;
+}
+form#selectTicket    table    tr   th   select#movieList {
+	width: 400px;
+}
+form#selectTicket  table#customerDetails tr td input {
+	width: 300px;
+}
+
+
+tr.alt {
+	background: #889F9C;
+}
+div#summary {
+	padding: 10px;
+	width: 60%;
+	background: #9FB3B0;
+	border: 1px solid #CFD8D7;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+div#summary ul, div#summary ul li {
+	display: inline;
+}
+div#summary ul li {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+
+div#leftContent div h3 {
+	border: none !important;
+	padding-right: 10px;
+}
+table#customerDetails div#ccNoExp table {
+	border-width: 0px;
+}
+div#leftContent form#selectTicket table#customerDetails td {
+	text-align: left;
+}
+form#selectTicket table#customerDetails {
+	border-width: 0px;
+}
+form#selectTicket table#ticketSelect th {
+	background: #0F1313;
+	color: #DADEDE;
+}
+form#selectTicket h2 {
+	text-align: center;
+}
+form#selectTicket table#ticketSelect td input {
+	text-align: center;
+}

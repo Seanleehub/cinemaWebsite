@@ -1,0 +1,106 @@
+@charset "utf-8";
+div#leftContent     div h3   {
+	border-right: 20px solid #1E2423;
+	padding-right: 10px;
+}
+
+table.reviewOverview th {
+	font-size: 14px;
+	background: #495C5A;
+	color: #EEEEEE;
+	padding-left: 20px;
+	border-left: 16px solid #EEEEEE;
+}
+table.reviewOverview th a {
+	color: #EEEEEE !important;
+}
+
+div#starRating {
+	background: #FFFFFF;
+	padding: 5px;
+	border: 1px solid #1C2221;
+}
+div#leftFloat {
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+div#leftContent {
+	margin-right: 240px;
+}
+div#leftContent  h1 {
+	font-size: 24px;
+	color: #698380;
+	background: #0F1313;
+	border: 2px solid #889F9C;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+}
+div#rightContent   ul  {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+
+div#quickFind {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+select#movieQuickFind {
+	width: 400px;
+}
+div.nowShowingCell {
+	width: 46%;
+	float: left;
+	margin-right: 30px;
+}
+img.poster {
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+span.releaseDate {
+	font-size: 10px;
+	font-style: italic;
+}
+
+ul#intNav {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+
+
+}
+ul#intNav li {
+	display: inline;
+	padding-right: 10px;
+	padding-left: 4px;
+	border-left: 8px solid #323F3E;
+	color: #202827;
+	font-weight: bold;
+}
+div#leftContent  /*For the dates on the update section*/
+h4 {
+	font-style: italic;
+	font-weight: bold;
+	color: #0F1313;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: 12px;
+				}
+table#classificationGuide {
+	border: 1px solid #1B2120;
+	background: #FFFFFF;
+}
+table#classificationGuide    td,table#classificationGuide  th {
+	border-bottom: 1px dotted #1B2120;
+}

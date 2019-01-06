@@ -1,0 +1,67 @@
+@charset "utf-8";
+ul.times, div#leftContent   div  h3, ul.times li{
+	display: inline;
+}
+ul.times li {
+	margin-left: 30px;
+}
+div.alt {
+	background: #ACBDBB;
+}
+div.movieSession h2 {
+	color: #ACBDBB;
+	background: #1F2726;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	border-left: 15px solid #ACBDBB;
+	font-size: 18px;
+}
+div.movieSession div {
+	padding: 2px;
+}
+div.movieSession h3 {
+	font-size: 13px;
+}
+
+
+ul.times  div.timeBlock {
+	width: 80%;
+	margin-left: 20%;
+}
+
+div#leftContent  h1 {
+	font-size: 24px;
+	color: #698380;
+	background: #0F1313;
+	border: 2px solid #889F9C;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+}
+
+
+ul#intNav {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+
+
+}
+div#leftContent {
+	margin-right: 240px;
+}
+div#leftContent  div.movieSession  h2  a {
+	color: #ACBDBB;
+}
+
+ul#intNav li {
+	display: inline;
+	padding-right: 10px;
+	padding-left: 4px;
+	border-left: 8px solid #323F3E;
+	color: #202827;
+	font-weight: bold;
+}
